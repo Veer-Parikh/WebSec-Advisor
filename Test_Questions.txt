@@ -1,0 +1,108 @@
+1. Broken Access Control (A01)
+-Basic Understanding: What is broken access control in web applications?
+-Technical Explanation: How do insecure direct object references (IDOR) enable broken access control?
+-Vulnerability ID: How can I test if my application has broken access control issues?
+-Prevention Methods: What are the best practices to prevent broken access control?
+-Example Scenarios: Can you give me a real-world example of a broken access control attack?
+-References: What OWASP resources are available for broken access control?
+-Statistics: How common are broken access control vulnerabilities in web applications?
+-Proactive Suggestions: What security headers should I implement to enhance access control?
+
+
+2. Cryptographic Failures (A02)
+-Basic Understanding: What are cryptographic failures in web security?
+-Technical Explanation: How does weak cryptographic storage lead to data breaches?
+-Vulnerability ID: How can I check if my application uses weak encryption?
+-Prevention Methods: What are the industry standards for secure password hashing?
+-Example Scenarios: Can you describe a major breach caused by cryptographic failures?
+-References: What are the NIST recommendations for cryptographic algorithms?
+-Statistics: What percentage of data breaches involve weak cryptography?
+-Proactive Suggestions: What libraries should I use for secure encryption?
+
+
+3. Injection (A03)
+-Basic Understanding: What is SQL injection and how does it work?
+-Technical Explanation: How does parameterized query prevent SQL injection?
+-Vulnerability ID: What tools can detect NoSQL injection vulnerabilities?
+-Prevention Methods: How to prevent command injection in Node.js applications?
+-Example Scenarios: Show me a practical example of a blind SQL injection attack.
+-References: Where can I find OWASP's injection prevention cheat sheet?
+-Statistics: How many web applications are vulnerable to injection attacks?
+-Proactive Suggestions: What security headers help prevent XSS and injection attacks?
+
+
+4. Insecure Design (A04)
+-Basic Understanding: What does insecure design mean in application security?
+-Technical Explanation: How does threat modeling help prevent insecure design?
+-Vulnerability ID: How to identify business logic vulnerabilities?
+-Prevention Methods: What are the secure design principles for microservices?
+-Example Scenarios: Can you give an example of a security flaw from poor design?
+-References: What are the OWASP Secure Design Patterns?
+-Statistics: How many breaches are attributed to insecure design?
+-Proactive Suggestions: What design patterns improve application security?
+
+
+5. Security Misconfiguration (A05)
+-Basic Understanding: What is security misconfiguration?
+-Technical Explanation: How do default credentials lead to security breaches?
+-Vulnerability ID: How to scan for security misconfigurations?
+-Prevention Methods: What's the secure configuration for Apache/Nginx?
+-Example Scenarios: Describe a breach caused by security misconfiguration.
+-References: What are the CIS benchmarks for server security?
+-Statistics: How common are misconfiguration-related breaches?
+-Proactive Suggestions: What tools can automate security configuration checks?
+
+
+6. Vulnerable and Outdated Components (A06)
+-Basic Understanding: Why are outdated components a security risk?
+-Technical Explanation: How does dependency confusion work?
+-Vulnerability ID: How to check for vulnerable dependencies in Python/Node.js?
+-Prevention Methods: What's the process for secure dependency management?
+-Example Scenarios: Can you describe the Equifax breach?
+-References: What are the best SBOM tools available?
+-Statistics: How many breaches involve known vulnerabilities?
+-Proactive Suggestions: How to implement automated dependency updates?
+
+
+7. Identification and Authentication Failures (A07)
+-Basic Understanding: What are authentication vulnerabilities?
+-Technical Explanation: How do credential stuffing attacks work?
+-Vulnerability ID: How to test for weak password policies?
+-Prevention Methods: What are the best practices for MFA implementation?
+-Example Scenarios: Describe a real-world account takeover attack.
+-References: What are the NIST password guidelines?
+-Statistics: How many users reuse passwords across services?
+-Proactive Suggestions: What authentication protocols are most secure?
+
+
+8. Software and Data Integrity Failures (A08)
+-Basic Understanding: What are software supply chain attacks?
+-Technical Explanation: How does dependency hijacking work?
+-Vulnerability ID: How to verify package integrity?
+-Prevention Methods: What are the best practices for code signing?
+-Example Scenarios: Explain the SolarWinds attack.
+-References: What are the SLSA framework levels?
+-Statistics: How many organizations were affected by supply chain attacks?
+-Proactive Suggestions: How to implement software bill of materials (SBOM)?
+
+
+9. Security Logging and Monitoring Failures (A09)
+-Basic Understanding: Why is security logging important?
+-Technical Explanation: How does SIEM work for threat detection?
+-Vulnerability ID: How to test if logs are being properly collected?
+-Prevention Methods: What should be included in security logs?
+-Example Scenarios: How did poor logging affect the Target breach?
+-References: What are the OWASP logging guidelines?
+-Statistics: How long do breaches go undetected on average?
+-Proactive Suggestions: What tools can help with log analysis?
+
+
+10. Server-Side Request Forgery (SSRF) (A10)
+-Basic Understanding: What is SSRF and why is it dangerous?
+-Technical Explanation: How does SSRF lead to cloud metadata exposure?
+-Vulnerability ID: How to test for SSRF vulnerabilities?
+-Prevention Methods: What are the best defenses against SSRF?
+-Example Scenarios: Can you describe a major SSRF attack?
+-References: What are the OWASP SSRF prevention techniques?
+-Statistics: How common are SSRF vulnerabilities in cloud environments?
+-Proactive Suggestions: How to implement URL validation securely?
