@@ -1,3 +1,7 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a544c763-e9bb-47ef-b5bf-3bea9b7f6334" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cdf77859-e8b5-4ab0-9e05-275acc680736" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2abe5fb3-df22-4f48-ad70-ac1661b00505" />
+
 <div align="center">
   <h1 align="center">🛡️ OWASP Security Assistant (RAG)</h1>
   <h3 align="center">Retrieval-Augmented Generation Chatbot for Web Security</h3>
