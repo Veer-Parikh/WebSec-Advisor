@@ -22,4 +22,6 @@ tqdm>=4.62.0
 altair==4.2.2
 
 # Datasets
+
+google-generativeai
 datasets>=2.0.0
