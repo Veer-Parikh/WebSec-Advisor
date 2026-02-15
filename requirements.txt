@@ -1,6 +1,7 @@
 # Core Python
 
 # os
+python-dotenv
 
 # Data Processing
 numpy>=1.21.0
@@ -21,3 +22,4 @@ tqdm>=4.62.0
 
 # Datasets
 datasets>=2.0.0
+streamlit
